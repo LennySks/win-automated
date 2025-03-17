@@ -7,9 +7,15 @@ Automated tool for post-installation of Windows with my own settings.
 - [CTT Winutil](https://github.com/christitustech/winutil)
 - [FR33THY Optimization Pack](https://github.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide)
 
+## Requirements
+
+- Windows 11 (10 might work)
+- Powershell
+- Git
+
 ## Workflow
 
-1. Uses CTT Winutil to install software, run tweaks and enable security updates in CLI.
+1. Uses CTT Winutil to install software, run default tweaks and enable security updates in CLI.
    - `iex "& { $(irm https://christitus.com/win) } -Config ./config/tweaks.json -Run"`
 2. Uses FR33THY Optimization Pack's scripts to optimize system settings and remove bloatware.
    - Registry
@@ -22,6 +28,10 @@ Automated tool for post-installation of Windows with my own settings.
 
 ## Usage
 
-1. Navigate to the root of the repository.
-2. Run a powershell terminal as administrator
-3. Run `run.ps1` within that terminal.
+Open Powershell as Administrator and run the following commands:
+
+```
+git clone https://github.com/LennySks/win-automated.git
+cd win-automated
+.\run.ps1
+```
