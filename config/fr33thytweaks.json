@@ -1,0 +1,26 @@
+{
+  "scripts": [
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/3%20Copilot.ps1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/4%20Widgets.ps1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/6%20Gamebar.ps1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/9%20Power%20Plan.ps1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/12%20Registry.ps1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/15%20Bloatware.ps1",
+      "input": "2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/refs/heads/main/6%20Windows/22%20Cleanup.ps1"
+    }
+  ]
+}
