@@ -1,6 +1,6 @@
 # win-automated
 
-Automated tool for post-installation of Windows with my own settings.
+Automated PowerShell script for post-installation Windows optimization, utilizing Chris Titus Tech's and FR33THY's tools and scripts.
 
 ## Resources
 
@@ -9,7 +9,7 @@ Automated tool for post-installation of Windows with my own settings.
 
 ## Requirements
 
-- Windows 11 (10 might work)
+- Windows 11 (10 should work)
 - Powershell
 - Git
 - Running scripts is enabled
