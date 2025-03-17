@@ -1,11 +1,11 @@
 # win-automated
 
-Automated tool for post-installation of windows with own settings.
+Automated tool for post-installation of Windows with my own settings.
 
 ## Resources
 
-- CTT Winutil
-- FR33THY Optimization Pack
+- [CTT Winutil](https://github.com/christitustech/winutil)
+- [FR33THY Optimization Pack](https://github.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide)
 
 ## Workflow
 
@@ -22,4 +22,6 @@ Automated tool for post-installation of windows with own settings.
 
 ## Usage
 
-Run `./run.ps1` inside powershell.
+1. Navigate to the root of the repository.
+2. Run a powershell terminal as administrator
+3. Run `run.ps1` within that terminal.
