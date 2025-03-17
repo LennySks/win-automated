@@ -19,8 +19,11 @@ Automated tool for post-installation of Windows with my own settings.
 ## Workflow
 
 1. Uses CTT Winutil to install software, run default tweaks and enable security updates in CLI.
+
    - `iex "& { $(irm https://christitus.com/win) } -Config ./config/tweaks.json -Run"`
+
 2. Uses FR33THY Optimization Pack's scripts to optimize system settings and remove bloatware.
+
    - Registry
    - Bloatware
    - Gamebar
@@ -29,11 +32,13 @@ Automated tool for post-installation of Windows with my own settings.
    - Power plan
    - Cleanup
 
+3. Installs AMD Chipset and GPU drivers. (TODO)
+
 ## Usage
 
 Open Powershell as Administrator and run the following commands:
 
-```
+```shell
 git clone https://github.com/LennySks/win-automated.git
 cd win-automated
 .\run.ps1
