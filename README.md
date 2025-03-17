@@ -12,6 +12,9 @@ Automated tool for post-installation of Windows with my own settings.
 - Windows 11 (10 might work)
 - Powershell
 - Git
+- Running scripts is enabled
+  - To enable scripts `Set-ExecutionPolicy RemoteSigned`
+  - To disable scripts `Set-ExecutionPolicy Restricted`
 
 ## Workflow
 
